@@ -2,11 +2,11 @@
 pragma solidity ^0.8.19;
 
 /**
- * @title HoneyTracking
+ * @title HoneyProvenance
  * @dev Token-based honey provenance tracking with role-based operations
  * Factory → Seller → Consumer supply chain
  */
-contract HoneyTracking {
+contract HoneyProvenance {
     
     // Roles
     enum Role { NONE, FACTORY, SELLER, CONSUMER }
