@@ -1,0 +1,33 @@
+{
+  "name": "honeytrace-mvp",
+  "version": "1.0.0",
+  "description": "Blockchain-backed honey provenance tracking MVP",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:mumbai": "hardhat run scripts/deploy.js --network mumbai",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "node": "hardhat node",
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm start"
+  },
+  "keywords": [
+    "blockchain",
+    "provenance",
+    "honey",
+    "ethereum",
+    "ipfs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "ethers": "^6.9.0"
+  }
+}
